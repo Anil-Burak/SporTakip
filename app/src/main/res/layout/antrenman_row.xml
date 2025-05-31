@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp">
+
+    <!-- Antrenman Kartı -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:radius="8dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Antrenman İkonu -->
+            <ImageView
+                android:id="@+id/antrenmanIkon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_sport"
+                android:contentDescription="Antrenman İkonu"
+                android:layout_gravity="center_vertical"/>
+
+            <!-- Antrenman İsmi -->
+            <TextView
+                android:id="@+id/antrenmanIsim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Koşu"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

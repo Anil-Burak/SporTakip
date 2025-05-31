@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_gecmis"
+        android:icon="@drawable/ic_history"
+        android:title="Geçmiş" />
+    <item
+        android:id="@+id/nav_antrenman"
+        android:icon="@drawable/ic_sport"
+        android:title="Antrenmanlar" />
+    <item
+        android:id="@+id/nav_profil"
+        android:icon="@drawable/ic_profile"
+        android:title="Profil" />
+</menu>
